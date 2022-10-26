@@ -1,0 +1,96 @@
+* { box-sizing: border-box; }
+body { background-color: #73a481;
+	color: #fff;
+	font-family: Helvetica, Tahoma, Verdana, san-serif;
+}
+header { text-align: center;
+		font-weight: bold;
+		height: 400px;
+		font-size: 150%;
+		background-image: url(soulmusiclogo.png);
+		padding-top: 1px;
+}
+#wrapper {background-color: #9c9;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 900px;
+	max-width: 1280px;
+}
+aside { float: right;
+	text-align: center; 
+	padding-top: 5px;
+	padding-bottom:10px;
+	width: 250px;
+	background-color: #4d7c69;
+}
+aside p { padding-right: 2em;
+ 		padding-left: 2em;
+ 		font-style: italic;
+ }
+aside h2 { padding-right: 2em; 
+		padding-left: 2em;
+}
+main { padding: 2em 4em 2em 2em;
+	margin-right: 200px;
+	background-color: #9c9;
+	display: block;
+	border-top: 1px solid #221811;
+}
+main a { 
+		font-weight: bold;
+		text-decoration: none;
+}
+nav { text-align: center;
+	font-weight: bold;
+	font-size:1.5em;
+	padding-top: 10px;
+}
+nav a { text-decoration: none; 
+	 padding: 1em;
+	width: 8em;
+}
+nav li { display: inline-block }
+ 	
+h3 { text-align: center; 
+}
+footer	{ 
+	font-size: .60em;
+	font-style:italic;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #221811;
+	clear: both;
+}
+img { float: left;
+	clear: both;
+
+/* header, nav, main, footer { display: border; } */
+
+/* .col-25{
+    width: 25%;
+    float: left;
+ }
+ .prod{
+     border-radius: 10px;
+     padding: 25px;
+     margin:7px;
+     text-align: center;
+     position: relative;
+     box-shadow: 0 0 5px blue;
+ }
+ .prod> .name{
+     font-size: large;
+     font-variant: normal;
+     color: black;
+ }
+ .prod>.image{
+     max-width: 98%;
+     height: 150px;
+     margin-bottom: 10px; 
+     background-color: aqua;
+ }
+  */
+
+}

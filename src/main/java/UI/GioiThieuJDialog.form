@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,83,0,0,2,-63"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Trong th&#x1edd;i bu&#x1ed5;i c&#xf4;ng ngh&#x1ec7; hi&#x1ec7;n nay, c&#xe1;c h&#xec;nh th&#x1ee9;c qu&#x1ea3;n l&#xfd; th&#x1ee7; c&#xf4;ng tr&#x1b0;&#x1edb;c kia b&#x1eaf;t &#x111;&#x1ea7;u gi&#x1ea3;m b&#x1edb;t do nh&#x1eef;ng s&#x1ef1; c&#x1ed1; sai x&#xf3;t &#x111;&#xe1;ng ti&#x1ebf;c &#x1ea3;nh h&#x1b0;&#x1edf;ng &#x111;&#x1ebf;n ng&#x1b0;&#x1edd;i ti&#xea;u d&#xf9;ng&#xa; kh&#xe1;ch h&#xe0;ng l&#x1eab;n c&#xe1;c doanh nghi&#x1ec7;p th&#x1b0;&#x1a1;ng m&#x1ea1;i. Thay v&#xe0;o &#x111;&#xf3;, nh&#x1eef;ng ph&#x1ea7;n m&#x1ec1;m c&#xf4;ng ngh&#x1ec7; ng&#xe0;y c&#xe0;ng xu&#x1ea5;t hi&#x1ec7;n &#x111;a d&#x1ea1;ng, h&#x1ed5; tr&#x1ee3; h&#x1ea7;u h&#x1ebf;t c&#xe1;c l&#x129;nh v&#x1ef1;c.Nh&#x1eef;ng ph&#x1ea7;n&#xa; m&#x1ec1;m &#x111;em l&#x1ea1;i nh&#x1eef;ng l&#x1ee3;i &#xed;ch v&#xf4; c&#xf9;ng to l&#x1edb;n, h&#x1ea1;n ch&#x1ebf; &#x111;&#x1b0;&#x1ee3;c nh&#x1eef;ng sai x&#xf3;t &#x111;&#xe1;ng ti&#x1ebf;c khi d&#xf9;ng ph&#x1b0;&#x1a1;ng ph&#xe1;p th&#x1ee7; c&#xf4;ng tr&#x1b0;&#x1edb;c kia.&#xa;&#xa;Y&#xea;u c&#x1ea7;u v&#x1ec1; m&#xf4;i tr&#x1b0;&#x1edd;ng:&#xa;1. H&#x1ec7; &#x111;i&#x1ec1;u h&#xe0;nh b&#x1ea5;t k&#x1ef3;&#xa;2. JDK 1.8 tr&#x1edf; l&#xea;n&#xa;3. SQL Server 2008 tr&#x1edf; l&#xea;n&#xa;4.Phi&#xea;n B&#x1ea3;n Ph&#x1ea7;n M&#x1ec1;m 1.3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextPane1MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Last"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\caijava\PMQuanLyQuanAn\src\main\resources\logoquanan.jpg"/>
+                </Property>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
